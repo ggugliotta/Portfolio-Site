@@ -1,20 +1,23 @@
 /*
 Colors used
-Visited Link Color: #3d1255;
+Primary Color: #8897AA
+Secondary Color: #EDECF2
+Chart in Work Page: #C8C7D7
 Active Link Color: #489c80;
-Secondary Color (Orange): #e0b354;
+Visited Link Color: #3d1255;
 Button Background Color: #357b70
 Button Secondary: #e0b354
+Background Color: #F4EDE5
  */
 :root {
-  --primary-color: #357b70;
-  --secondary-color: #e0b354;
-  --dark-grey: #2b2b2b;
+  --primary-color: #8897AA;
+  --secondary-color: #EDECF2;
+  --dark-grey: #C8C7D7;
   --active-link-color: #489c80;
   --visited-link-color: #3d1255;
   --button-background-color: #357b70;
   --button-secondary: #e0b354;
-  --background-color: #ffccff;
+  --background-color: #F4EDE5;
   --white--: #ffffff;
   --font-size-body: 25px;
   --font-weight-body: 400;
@@ -105,7 +108,7 @@ button:hover, button:focus
     box-sizing: border-box;
   }
 
-.pageheader{
+.page-header{
    display: flex;
    width: 100%;
    padding: 20px;
@@ -120,6 +123,10 @@ button:hover, button:focus
    text-align: right;
  }
 
+ .navigation-list_item--active {
+   text-decoration: none;
+ }
+
 .page-header .navigation-list {
 	 list-style-type: none;
   }
@@ -131,7 +138,7 @@ button:hover, button:focus
 
 .button_secondary {
     background-color: var(--secondary-color);
-    color: var(--dark-grey);
+    color: var(--purple);
     }
 
 .page-footer {
