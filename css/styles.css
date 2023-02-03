@@ -6,7 +6,7 @@ Chart in Work Page: #C8C7D7
 Active Link Color: #489c80;
 Visited Link Color: #3d1255;
 Button Background Color: #357b70
-Button Secondary: #e0b354
+Button Secondary: #FFCBA4
 Background Color: #F4EDE5
  */
 :root {
@@ -16,14 +16,14 @@ Background Color: #F4EDE5
   --active-link-color: #489c80;
   --visited-link-color: #3d1255;
   --button-background-color: #357b70;
-  --button-secondary: #e0b354;
+  --button-secondary: #FFCBA4;
   --background-color: #F4EDE5;
   --white--: #ffffff;
-  --font-size-body: 25px;
+  --font-size-body: 15px;
   --font-weight-body: 400;
-  --font-size-h1: 30px;
-  --font-size-h2: 24px;
-  --font-size-h3: 18px;
+  --font-size-h1: 25px;
+  --font-size-h2: 20px;
+  --font-size-h3: 15px;
   --font-weight-paragraphs: 700;
 
 }
@@ -33,7 +33,7 @@ html { background-color: var(--background-color);
 
 
 body {
-     font-family: 'Shadows Into Light', sans-serif;
+     font-family: 'Arial', sans-serif;
      font-weight: var(--font-weight-body);
      font-size: var(--font-size-body);
      /*Sets the font size to 25px */
@@ -42,18 +42,18 @@ body {
 }
 
 h1   {
-     font-size: 30px;
+     font-size: var(--font-size-h1);
      font-weight: var(--font-weight-paragraphs);
      text-decoration: underline;
 }
 
 h2   {
-     font-size: 24px;
+     font-size: var(--font-size-h2);
      font-weight: var(--font-weight-paragraphs);
 }
 
 h3   {
-     font-size: 18px;
+     font-size: var(--font-size-h2);
      font-weight: var(--font-weight-paragraphs);
 }
 
@@ -108,7 +108,16 @@ button:hover, button:focus
     box-sizing: border-box;
   }
 
-.page-header{
+  .home-buttons {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button_primary {
+    margin-right: 20px
+  }
+
+.page-header {
    display: flex;
    width: 100%;
    padding: 20px;
@@ -139,6 +148,7 @@ button:hover, button:focus
 .button_secondary {
     background-color: var(--secondary-color);
     color: var(--purple);
+    text-align: center;
     }
 
 .page-footer {
@@ -204,6 +214,7 @@ button:hover, button:focus
    grid-row: 1 / 3;
   }
 
+
  .Chicago_blue {
    float: center;
    width: 100%;
@@ -234,6 +245,7 @@ button:hover, button:focus
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
 
   h1 {
     font-size: var(--font-size-h1);
