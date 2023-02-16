@@ -2,7 +2,7 @@
 Colors used
 Primary Color: #8897AA
 Secondary Color: #EDECF2
-Chart in Work Page: #C8C7D7
+Chart in Work Page: #f7d3cc
 Active Link Color: #489c80;
 Visited Link Color: #3d1255;
 Button Background Color: #357b70
@@ -12,7 +12,7 @@ Background Color: #F4EDE5
 :root {
   --primary-color: #8897AA;
   --secondary-color: #EDECF2;
-  --dark-grey: #C8C7D7;
+  --chart-color: #f7d3cc;
   --active-link-color: #489c80;
   --visited-link-color: #3d1255;
   --button-background-color: #357b70;
@@ -147,7 +147,7 @@ button:hover, button:focus
 
 .button_secondary {
     background-color: var(--secondary-color);
-    color: var(--purple);
+    color: var(--chart-color);
     text-align: center;
     }
 
@@ -249,38 +249,4 @@ button:hover, button:focus
       font-size: 22px;
     }
   }
-
-@keyframes color-change {
-  0% {
-    fill: #edc655;
-  }
-  50% {
-    fill: #fcffad;
-  }
-  100% {
-    fill: #f76414;
-  }
-
-sun {
-  animation: 4s color-change infinite alternate linear;
-}
-
-@keyframes cloud-move from {
-    transform: translate(0, 50px);
-  
-to {
-    transform: translate(200px, 50px);
-  }
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-@keyframes cloud-move-reverse from
-(446px, 48px);
-  to {
-    transform: translate(100px, 48px);
-  }
-.cloud-back {
-  animation: 34s cloud-move-reverse infinite alternate linear;
 }
