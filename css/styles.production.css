@@ -149,7 +149,7 @@ Background Color: #F4EDE5
  
  .button_secondary {
      background-color: #EDECF2;
-     color: #f7d3cc;
+     color: #FFCBA4;
      text-align: center;
      }
  
@@ -205,7 +205,7 @@ Background Color: #F4EDE5
    }
  
   .grid__item {
-    background-color: #c7bedf;
+    background-color: #f7d3cc;
     width: auto;
     min-height: auto;
     margin: 0;
