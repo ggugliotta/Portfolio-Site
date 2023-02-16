@@ -147,7 +147,7 @@ button:hover, button:focus
 
 .button_secondary {
     background-color: var(--secondary-color);
-    color: var(--chart-color);
+    color: var(--button-secondary);
     text-align: center;
     }
 
@@ -203,7 +203,7 @@ button:hover, button:focus
   }
 
  .grid__item {
-   background-color: #c7bedf;
+   background-color: var(--chart-color);
    width: auto;
    min-height: auto;
    margin: 0;
