@@ -221,7 +221,7 @@ button:hover, button:focus
    max-width: 100%;
    margin-right: 0px;
    border-radius: 10%;
-   height: 600px
+   height: 300px
   }
 
   @media all and (max-width: 750px){
