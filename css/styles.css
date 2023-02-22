@@ -2,22 +2,22 @@
 Colors used
 Primary Color: #8897AA
 Secondary Color: #EDECF2
-Chart in Work Page: #f7d3cc
+Chart in Work Page: #96C2DB
 Active Link Color: #489c80;
 Visited Link Color: #3d1255;
 Button Background Color: #357b70
 Button Secondary: #FFCBA4
-Background Color: #F4EDE5
+Background Color: #FFFFF
  */
 :root {
   --primary-color: #8897AA;
   --secondary-color: #EDECF2;
-  --chart-color: #f7d3cc;
+  --chart-color: #96C2DB;
   --active-link-color: #489c80;
   --visited-link-color: #3d1255;
   --button-background-color: #357b70;
   --button-secondary: #FFCBA4;
-  --background-color: #F4EDE5;
+  --background-color: #FFFFFF;
   --white--: #ffffff;
   --font-size-body: 15px;
   --font-weight-body: 400;
@@ -39,10 +39,12 @@ body {
      /*Sets the font size to 25px */
      line-height: 1.6;
      /* Sets the line-height to 1.6 */
+     text-decoration: none; 
 }
 
 h1   {
      font-size: var(--font-size-h1);
+     font-family: 'Shadows Into Light'; 
      font-weight: var(--font-weight-paragraphs);
      text-decoration: underline;
 }
@@ -53,7 +55,7 @@ h2   {
 }
 
 h3   {
-     font-size: var(--font-size-h2);
+     font-size: var(--font-size-h3);
      font-weight: var(--font-weight-paragraphs);
 }
 
@@ -155,10 +157,10 @@ button:hover, button:focus
     clear: both;
     display: flex;
     flex-direction: column;
-    text-align: right;
-    width: 100%; 
-    max-width: 50px; 
-    height: 50px; 
+    text-align: center;
+    flex-basis: 100px; 
+    flex-grow: 1; 
+    flex-shrink: 1; 
 
 }
 
