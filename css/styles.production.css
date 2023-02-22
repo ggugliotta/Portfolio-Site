@@ -142,12 +142,22 @@ Background Color: #FFFFF
  
  .page-header .navigation-list {
     list-style-type: none;
+   position: -webkit-sticky; /* Safari */
+   position: sticky;
+   top: 0; 
    }
  
  .page-header .navigation-list li {
-     display: inline-block;
+     display: inline;
      margin-left: 15px;
+     float: left;
      }
+   
+   .navigation-list li a {
+     display: block;
+     text-decoration: none;
+   }
+   
  
  .button_secondary {
      background-color: #EDECF2;
