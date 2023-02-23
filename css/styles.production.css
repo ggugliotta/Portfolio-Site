@@ -5,7 +5,7 @@ Secondary Color: #EDECF2
 Chart in Work Page: #96C2DB
 Active Link Color: #489c80;
 Visited Link Color: #3d1255;
-Button Background Color: #357b70
+Button Background Color: #e993e7
 Button Secondary: #FFCBA4
 Background Color: #FFFFF
  */
@@ -15,7 +15,7 @@ Background Color: #FFFFF
  
  
  body {
-      font-family: 'Times New Roman', 'Arial', sans-serif;
+      font-family: 'Arial', sans-serif;
       font-weight: 500;
       font-size: 15px;
       /*Sets the font size to 25px */
@@ -144,12 +144,13 @@ Background Color: #FFFFF
 
  .navigation-list li {
   display: inline-block;
-  margin-left: 15px;
+  margin-left: 25px;
+  font-family:Arial, Helvetica, sans-serif; 
 }
  
  .button_secondary {
-     background-color: #EDECF2;
-     color: #FFCBA4;
+     background-color: #e993e7;
+     color: #ffffff;
      text-align: center;
      }
  

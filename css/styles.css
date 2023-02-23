@@ -6,7 +6,7 @@ Chart in Work Page: #96C2DB
 Active Link Color: #489c80;
 Visited Link Color: #3d1255;
 Button Background Color: #357b70
-Button Secondary: #FFCBA4
+Button Secondary: #e993e7
 Background Color: #FFFFF
  */
 :root {
@@ -16,8 +16,8 @@ Background Color: #FFFFF
   --active-link-color: #489c80;
   --visited-link-color: #3d1255;
   --button-background-color: #357b70;
-  --button-secondary: #FFCBA4;
-  --background-color: #FFFFFF;
+  --button-secondary: #e993e7;
+  --background-color: #7060da;
   --white--: #ffffff;
   --font-size-body: 15px;
   --font-weight-body: 400;
@@ -147,6 +147,7 @@ button:hover, button:focus
  .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+  font-family:Arial, Helvetica, sans-serif
 }
  
 
@@ -215,6 +216,7 @@ button:hover, button:focus
    grid-template-columns: 1fr 1fr 1fr;
    grid-gap: 20px;
    margin: 10;
+   box-sizing: border-box; 
   }
 
  .grid__item {
